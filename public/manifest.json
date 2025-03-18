@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Email Agent",
+  "name": "FlexiEmail",
   "version": "1.0",
-  "description": "A Chrome extension for managing Gmail emails.",
-  "permissions": ["storage", "identity", "activeTab", "scripting"],
-  "host_permissions": ["https://mail.google.com/", "https://www.googleapis.com/"],
+  "description": "A Chrome extension for managing emails efficiently.",
+  "permissions": ["storage", "activeTab"],
   "action": {
     "default_popup": "index.html"
   },

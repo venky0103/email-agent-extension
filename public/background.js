@@ -1,5 +1,5 @@
 self.addEventListener("install", () => {
-    console.log("Email Agent Extension Installed!");
+    console.log("FlexiEmail Extension Installed!");
   });
   
   self.addEventListener("activate", () => {
@@ -7,6 +7,6 @@ self.addEventListener("install", () => {
   });
       
   chrome.runtime.onInstalled.addListener(() => {
-    console.log("Email Agent Extension Installed via Chrome API!");
+    console.log("FlexiEmail Extension Installed via Chrome API!");
   });
   

@@ -12,11 +12,17 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        background: resolve(__dirname, "src/background.js")
+        website: resolve(__dirname, "website.html"),
+        background: resolve(__dirname, "src/extension/background.js")
       },
       output: {
         entryFileNames: "[name].js"
       }
+    }
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src')
     }
   }
 });
